@@ -52,4 +52,4 @@ Source code is proprietary; the public projects below use the same patterns.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/mohamed-kinan-7883851a8/) · [Email](mailto:mohamed.kinan3@gmail.com) · Open to remote roles
+[LinkedIn](https://www.linkedin.com/in/mokinan/) · [Email](mailto:mohamed.kinan3@gmail.com) · Open to remote roles
