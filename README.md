@@ -17,11 +17,11 @@ where I own architecture decisions, code standards and the release process.
 
 ## Production work
 
-| Product | Domain | What it does |
-|---|---|---|
-| **[Madark](https://madark.sa)** | Fintech · education financing | Tuition financing for parents: applications, installment plans and repayments |
-| **[Rassd Cloud](https://rassd.sa) — Billing** | ERP / SaaS · invoicing | Cloud billing and invoicing for businesses |
-| **[Rassd Cloud](https://rassd.sa) — Attendance** | ERP / SaaS · workforce | Employee attendance tracking and reporting |
+| Product | Domain | What it does | Stores |
+|---|---|---|---|
+| **[Madark](https://madark.sa)** | Fintech · education financing | Tuition financing for parents: applications, installment plans and repayments | [App Store](https://apps.apple.com/sa/app/id6768550546) · [Google Play](https://play.google.com/store/apps/details?id=com.madark.institution) |
+| **[Rassd Cloud](https://rassd.sa) — Billing** | ERP / SaaS · invoicing | Cloud billing and invoicing for businesses | [App Store](https://apps.apple.com/sa/app/id6478158183) |
+| **[Rassd Cloud](https://rassd.sa) — Attendance** | ERP / SaaS · workforce | Employee attendance tracking and reporting | [App Store](https://apps.apple.com/sa/app/id6456840349) · [Google Play](https://play.google.com/store/apps/details?id=com.worldofss.MotwagedRassdApp) |
 
 Source code is proprietary; the public projects below use the same patterns.
 
