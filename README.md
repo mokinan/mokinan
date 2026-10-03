@@ -1,43 +1,54 @@
 # Mohamed Kinan
 
-**Senior Flutter Engineer** — 7 years building and shipping production mobile apps
-for fintech, e-commerce, classifieds marketplaces and ERP/SaaS products.
+**Principal Flutter Engineer** — I build production mobile apps, and the architecture,
+standards and release pipelines that let a team keep shipping them.
 
-I focus on Flutter codebases that stay maintainable as the team and the feature set
-grow: clear architecture, predictable state, meaningful tests and automated releases.
+7 years of Flutter, from first commit to store release and long-term maintenance.
+I currently lead mobile engineering for the Rassd Cloud product line and Madark,
+where I own architecture decisions, code standards and the release process.
 
 ## What I work on
 
-- **Fintech** — wallets, payments, onboarding/KYC flows, secure storage, biometric auth
-- **E-commerce & marketplaces** — catalogs, search, checkout, in-app chat, high-traffic listing feeds
-- **ERP / SaaS** — offline-first apps, role-based access, multi-tenant setups, tablet & web layouts
+- **Fintech** — financing and repayment flows, wallets, secure storage, biometric auth
+- **ERP / SaaS** — billing, attendance, role-based access, multi-tenant setups
+- **Offline-first apps** — local source of truth, sync queues, caching, safe retries
 - **App security** — secure token handling, SSL pinning, hardening against common mobile findings
 - **Engineering practice** — architecture decisions, code review, CI/CD, onboarding developers
 
-## Tech
+## Production work
 
-- **Core:** Flutter, Dart
-- **State management:** Bloc / Cubit, Riverpod, Provider, GetX
-- **Architecture:** Clean Architecture, feature-first modules, monorepos (pub workspaces)
-- **Data & backend:** REST, GraphQL, Firebase, WebSockets, Dio, Drift (SQLite)
-- **Quality:** unit, widget & integration tests, strict static analysis
-- **Delivery:** GitHub Actions, build flavors, Firebase Crashlytics
+| Product | Domain | What it does |
+|---|---|---|
+| **[Madark](https://madark.sa)** | Fintech · education financing | Tuition financing for parents: applications, installment plans and repayments |
+| **[Rassd Cloud](https://rassd.sa) — Billing** | ERP / SaaS · invoicing | Cloud billing and invoicing for businesses |
+| **[Rassd Cloud](https://rassd.sa) — Attendance** | ERP / SaaS · workforce | Employee attendance tracking and reporting |
+
+Source code is proprietary; the public projects below use the same patterns.
 
 ## Selected projects
 
 | Project | Highlights |
 |---|---|
-| [**flutter-classifieds-marketplace**](https://github.com/mokinan/flutter-classifieds-marketplace) | Haraj-style marketplace · Riverpod 3 · monorepo (api / ui_kit / app) · cancellable debounced search · offline cache · optimistic UI · photo uploads · chat · deep links · Arabic/RTL |
 | [**flutter-fintech-wallet**](https://github.com/mokinan/flutter-fintech-wallet) | Offline-first multi-currency wallet · exact integer money math · idempotent outbox sync · single-flight token refresh · PIN & biometric lock · Arabic/RTL · 81 tests + E2E · ADRs |
+| [**flutter-classifieds-marketplace**](https://github.com/mokinan/flutter-classifieds-marketplace) | Haraj-style marketplace · Riverpod 3 · monorepo (api / ui_kit / app) · cancellable debounced search · offline cache · optimistic UI · photo uploads · chat · deep links · Arabic/RTL |
 
 ## Open source
 
-- [**gcc_validators**](https://github.com/mokinan/gcc_validators) — validation and normalization for
-  GCC IBANs, Saudi national IDs/Iqamas, Emirates IDs, mobile and VAT numbers.
-  Pure Dart, Arabic-digit aware, typed errors, 100% test coverage.
-- [**offline_sync_queue**](https://github.com/mokinan/offline_sync_queue) — persistent, ordered, retrying
-  operation queue for offline-first apps: idempotency keys, per-group ordering, backoff with jitter,
-  dead-lettering. Extracted from the wallet's sync engine.
+- [**gcc_validators**](https://github.com/mokinan/gcc_validators) — validation and normalization
+  for GCC IBANs, Saudi national IDs/Iqamas, Emirates IDs, mobile and VAT numbers.
+  Pure Dart, Arabic-digit aware.
+- [**durable_sync_queue**](https://github.com/mokinan/durable_sync_queue) — persistent, ordered,
+  retrying operation queue for offline-first apps: idempotency keys, per-group ordering,
+  backoff with jitter, dead-lettering. Extracted from the wallet's sync engine.
+
+## Toolbox
+
+- **Core:** Flutter, Dart
+- **State management:** Bloc / Cubit, Riverpod, Provider — chosen per problem
+- **Architecture:** Clean Architecture, feature-first modules, monorepos (pub workspaces)
+- **Data & backend:** REST, GraphQL, Firebase, WebSockets, Dio, Drift (SQLite)
+- **Quality:** unit, widget & integration tests, strict static analysis
+- **Delivery:** GitHub Actions, build flavors, Firebase Crashlytics
 
 ## Contact
 
