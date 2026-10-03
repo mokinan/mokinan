@@ -16,17 +16,18 @@ grow: clear architecture, predictable state, meaningful tests and automated rele
 
 ## Tech
 
-**Core:** Flutter, Dart
-**State management:** Bloc / Cubit, Riverpod, Provider, GetX
-**Architecture:** Clean Architecture, feature-first modules
-**Data & backend:** REST, GraphQL, Firebase, WebSockets, Dio, Drift (SQLite)
-**Quality:** unit, widget & integration tests, strict static analysis
-**Delivery:** GitHub Actions, build flavors, Firebase Crashlytics
+- **Core:** Flutter, Dart
+- **State management:** Bloc / Cubit, Riverpod, Provider, GetX
+- **Architecture:** Clean Architecture, feature-first modules, monorepos (pub workspaces)
+- **Data & backend:** REST, GraphQL, Firebase, WebSockets, Dio, Drift (SQLite)
+- **Quality:** unit, widget & integration tests, strict static analysis
+- **Delivery:** GitHub Actions, build flavors, Firebase Crashlytics
 
 ## Selected projects
 
 | Project | Highlights |
 |---|---|
+| [**flutter-classifieds-marketplace**](https://github.com/mokinan/flutter-classifieds-marketplace) | Haraj-style marketplace · Riverpod 3 · monorepo (api / ui_kit / app) · cancellable debounced search · offline cache · optimistic UI · photo uploads · chat · deep links · Arabic/RTL |
 | [**flutter-fintech-wallet**](https://github.com/mokinan/flutter-fintech-wallet) | Offline-first multi-currency wallet · exact integer money math · idempotent outbox sync · single-flight token refresh · PIN & biometric lock · Arabic/RTL · 81 tests + E2E · ADRs |
 
 ## Open source
