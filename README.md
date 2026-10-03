@@ -31,6 +31,7 @@ Source code is proprietary; the public projects below use the same patterns.
 |---|---|
 | [**flutter-fintech-wallet**](https://github.com/mokinan/flutter-fintech-wallet) | Offline-first multi-currency wallet · exact integer money math · idempotent outbox sync · single-flight token refresh · PIN & biometric lock · Arabic/RTL · 81 tests + E2E · ADRs |
 | [**flutter-classifieds-marketplace**](https://github.com/mokinan/flutter-classifieds-marketplace) | Haraj-style marketplace · Riverpod 3 · monorepo (api / ui_kit / app) · cancellable debounced search · offline cache · optimistic UI · photo uploads · chat · deep links · Arabic/RTL |
+| [**new_app**](https://github.com/mokinan/new_app) | One production-ready starter, five architectures — GetX · Cubit · Bloc · Provider · Riverpod, one branch each · same features, same 15 user-journey tests · token refresh · mock backend · go_router guards · Arabic/RTL |
 
 ## Open source
 
