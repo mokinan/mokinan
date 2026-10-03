@@ -23,11 +23,20 @@ grow: clear architecture, predictable state, meaningful tests and automated rele
 **Quality:** unit, widget & integration tests, strict static analysis
 **Delivery:** GitHub Actions, build flavors, Firebase Crashlytics
 
+## Selected projects
+
+| Project | Highlights |
+|---|---|
+| [**flutter-fintech-wallet**](https://github.com/mokinan/flutter-fintech-wallet) | Offline-first multi-currency wallet · exact integer money math · idempotent outbox sync · single-flight token refresh · PIN & biometric lock · Arabic/RTL · 81 tests + E2E · ADRs |
+
 ## Open source
 
 - [**gcc_validators**](https://github.com/mokinan/gcc_validators) — validation and normalization for
   GCC IBANs, Saudi national IDs/Iqamas, Emirates IDs, mobile and VAT numbers.
   Pure Dart, Arabic-digit aware, typed errors, 100% test coverage.
+- [**offline_sync_queue**](https://github.com/mokinan/offline_sync_queue) — persistent, ordered, retrying
+  operation queue for offline-first apps: idempotency keys, per-group ordering, backoff with jitter,
+  dead-lettering. Extracted from the wallet's sync engine.
 
 ## Contact
 
